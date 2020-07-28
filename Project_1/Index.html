@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Boostrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <!-- Css file call -->
     <link rel="stylesheet" href="style.css">
     
     <title>Snack Finder</title>
 </head>
 <body>
-    <h1>
-        <!--The Snack Finder is here to find the a specific snack you're looking for closet to you.-->
-        Here is our snack finder
-    </h1>
-    <!--pseudo code here -->
-    
+    <h2>
+        
+    The Snack Finder is here to find the a specific snack you're looking for closet to you.
+    </h2>
+
+    <div class="container"></div>
+        <div class="card">
+            <div class="card-header">
+            <strong>
+                <i class="fa fa-list-alt"></i> Search Parameters</strong>
+            </div>
+        <div class="card-body">
+            <br>
+    <div class="form-group">
+            <label for="Search">Search:</label>
+            <input type="text" class="form-control" id="item">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="Zipcode"> Zipcode:</label>
+            <input type="text" class="form-control" id="Zipcode">
+        </div>
+        <button id="submit">Submit</button>
     <link rel="stylesheet" href="script.js">
 </body>
 </html>
