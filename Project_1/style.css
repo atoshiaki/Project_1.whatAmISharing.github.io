@@ -3,13 +3,19 @@
   #map {
     height: 80%;
   }
+  img#Cat{
+    height: 20%;
+    max-width: 25%;
+  }
+
   html {
     background-image: url("loveofmylife.png");
+    background-color: black;
   }
   /* Optional: Makes the sample page fill the window. */
    html, body {
     height: 90%;  
-      max-width: 1080px;
+      max-width: 90%;
       margin-left: auto;
       margin-right: auto;
   }
