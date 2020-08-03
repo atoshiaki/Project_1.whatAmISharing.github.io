@@ -7,12 +7,14 @@
       
 html,
 body {
+  background-color: rgb(250, 241, 241);
   height: 100%;
   margin: 0;
   padding: 0;
 }
 h1 {
   background-color: rgb(182, 216, 205);
+  box-shadow: 0px 2px 10px rgba(178, 208, 226, 0.973);
   font-size: 25px;
   font-weight: bold;
   text-align: center;
