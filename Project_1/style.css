@@ -2,12 +2,14 @@
   * element that contains the map. */
 #map {
   height: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Optional: Makes the sample page fill the window. */
       
 html,
 body {
-  background-image: url("project_1/loveofmylife.png") ;
   background-color: rgb(250, 241, 241);
   height: 100%;
   margin: 0;
